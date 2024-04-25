@@ -1,0 +1,240 @@
+body {
+    background-image: url("Site_Espagnole_Barcelone_Background.png");
+    background-repeat: no-repeat;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    font-family: monospace;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h1 span {
+    background-image: url("");
+    border: solid black;
+    padding: 10px 200px;
+}
+
+h2 {
+    text-align: left;
+}
+
+h2 span {
+    background-color: antiquewhite;
+    border: solid black;
+    padding: 10px;
+}
+
+p {
+    text-align:left
+}
+
+p span {
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #333;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li:hover {
+    background-color: #555;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    width: 200px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    text-align: center;
+}
+
+nav ul ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav ul ul li a:hover {
+    background-color: #666;
+}
+
+
+
+
+
+
+
+.case3 {
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("Site_Espagnol_Barcelone_Jour_3.JPG");
+    border: 3px solid #000000;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.case3 p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.case3:hover {
+    transform: scale(1.05);
+}
+
+.case-container1 {
+    display: flex;
+    justify-content: center;
+    max-width: 1800px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.case1 {
+    text-align: left;
+    width: 420px;
+    background-image: url("Site_Espagnol_Barcelone_Jour_1.png");
+    border: 3px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.case1 p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.case1:hover {
+    transform: scale(1.05);
+}
+
+.case2 {
+    text-align: center;
+    width: 420px;
+    background-image: url("Site_Espagnol_Barcelone_Jour_2R.jpg");
+    border: 3px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.case2 p {
+    font-size: 16px;
+    color: #fffdfd;
+}
+
+.case2:hover {
+    transform: scale(1.05);
+}
+
+
+.case-container2 {
+    display: flex;
+    justify-content: center;
+    max-width: 1800px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.case4 {
+    text-align: left;
+    width: 420px;
+    background-image: url("Site_Espagnol_Barcelone_Jour_4R.jpg");
+    border: 3px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.case4 p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.case4:hover {
+    transform: scale(1.05);
+}
+
+
+.case5 {
+    text-align: center;
+    width: 420px;
+    background-image: url("Site_Espagnol_Barcelone_Jour_5R.jpg");
+    border: 3px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.case5 p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.case5:hover {
+    transform: scale(1.05);
+}
